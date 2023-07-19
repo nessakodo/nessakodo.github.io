@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd0aacba.css",
+    "main.js": "/static/js/main.f237b53a.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home-bg.jpg": "/static/media/home-bg.2c7cb73b7d4cf2b6228f.jpg",
+    "static/media/about.png": "/static/media/about.1c885e18add0eb93642c.png",
+    "static/media/logo.png": "/static/media/logo.5cff65baf5ef57fcb8e8.png",
+    "static/media/avatar.jpg": "/static/media/avatar.cdeae0777c55c9372556.jpg",
+    "static/media/NessaKodoResume.pdf": "/static/media/NessaKodoResume.79bc989984bee4461d70.pdf",
+    "static/media/groovy.png": "/static/media/groovy.830fcafd17cccea0aaf6.png",
+    "static/media/interproz.png": "/static/media/interproz.a64814f4c5708efb469e.png",
+    "static/media/smarthealth.png": "/static/media/smarthealth.da35c1f7193943a7ac3d.png",
+    "static/media/cryptoad.png": "/static/media/cryptoad.064612be4a3155160573.png",
+    "static/media/sonic.png": "/static/media/sonic.8f34802ce19f2dec265b.png",
+    "static/media/butterfleye.png": "/static/media/butterfleye.eec9207daed7600117ab.png",
+    "static/media/pre.svg": "/static/media/pre.796492ca0ab8ab8ea40f.svg",
+    "index.html": "/index.html",
+    "main.dd0aacba.css.map": "/static/css/main.dd0aacba.css.map",
+    "main.f237b53a.js.map": "/static/js/main.f237b53a.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd0aacba.css",
+    "static/js/main.f237b53a.js"
+  ]
+}
