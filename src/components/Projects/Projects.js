@@ -60,8 +60,8 @@ function Projects() {
               isBlog={false}
               title="Sonic Pi"
               description="Music coded within the live coding synthesizer Sonic Pi, in which both internal and external sounds have been altered by code and combined to create new sounds that are infinitely changeable in a live performance setting."
-              ghLink=""
-              demoLink="https://sonicpibrary.com"
+              ghLink="https://github.com/nessakodo/sonicpibrary"
+              demoLink=""
             />
           </Col>
 
@@ -71,8 +71,8 @@ function Projects() {
               isBlog={false}
               title="Groovy Galactic"
               description="Custom portfolio website for a local artist showcasing their use of different mediums, offering visitors the opportunity to purchase digital and physical items through WooCommerce."
-              ghLink=""
-              demoLink="https://groovygalactic.com" 
+              ghLink="https://github.com/nessakodo/groovygalactic"
+              demoLink="" 
             />
           </Col>
 
@@ -82,8 +82,8 @@ function Projects() {
               isBlog={false}
               title="Butterfleye"
               description="NFT collection and project based off of AI generated art creations and integrations. Crafted to be dynamic and utilized in a variety of ecommerce contexts and forms."
-              ghLink=""
-              demoLink="https://thebutterfleye.com"
+              ghLink="https://github.com/nessakodo/thebutterfleye"
+              demoLink=""
             />
           </Col>
         </Row>
