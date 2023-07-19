@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import sonic from "../../Assets/Projects/sonic.png";
 import butterfleye from "../../Assets/Projects/butterfleye.png";
-import cryptoad from "../../Assets/Projects/codecryptoad.png";
+import cryptoad from "../../Assets/Projects/cryptoad.png";
 import smarthealth from "../../Assets/Projects/smarthealth.png";
 import groovy from "../../Assets/Projects/groovy.png";
 import interproz from "../../Assets/Projects/interproz.png";
