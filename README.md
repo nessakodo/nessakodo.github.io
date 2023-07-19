@@ -7,6 +7,8 @@
 
 This website serves as a homepage for my projects, resume, and general information about me as a developer. This is a react app utilizing particle.js, so try clicking around the black space on the background for some fun!
 
+### This is live and viewable at [nessakodo.com](https://www.nessakodo.com)
+
 ## 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦𝘴 + 𝘍𝘳𝘢𝘮𝘦𝘸𝘰𝘳𝘬𝘴 𝘜𝘴𝘦𝘥
 
 ####
