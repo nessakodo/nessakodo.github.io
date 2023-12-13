@@ -42,7 +42,7 @@ function Home2() {
               Join me on this journey as we explore the intersection of creativity and technology, and build tools for the future.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvatar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
