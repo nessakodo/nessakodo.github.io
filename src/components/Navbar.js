@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -15,20 +15,45 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [showToggler, setShowToggler] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
+      setShowToggler(true);
     } else {
       updateNavbar(false);
+      setShowToggler(false);
     }
   }
 
-  window.addEventListener("scroll", scrollHandler);
+  function closeNavbar() {
+    updateExpanded(false);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => {
+      window.removeEventListener("scroll", scrollHandler);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleScrollTop = () => {
+      if (window.scrollY === 0 && expand) {
+        closeNavbar();
+      }
+    };
+
+    window.addEventListener("scroll", handleScrollTop);
+
+    return () => {
+      window.removeEventListener("scroll", handleScrollTop);
+    };
+  }, [expand]);
 
   return (
     <Navbar
@@ -41,18 +66,20 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+        {showToggler && (
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => {
+              updateExpanded(expand ? false : "expanded");
+            }}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </Navbar.Toggle>
+        )}
+        <Navbar.Collapse className="responsive-navbar-nav">
+        <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home

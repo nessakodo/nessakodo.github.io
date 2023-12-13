@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/NessaKodoResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -20,9 +20,15 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
+      <Container fluid className="project-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <h1 className="project-heading">
+          My <strong className="purple"> Resume </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          To download, click the button below.
+        </p>
+        <Row style={{ justifyContent: "center", position: "relative" }} className="resume-row">
           {/* <Button
             variant="primary"
             href={pdf}
@@ -40,8 +46,10 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+
+          <Row style={{ justifyContent: "center", position: "relative" }} className="button-row">
           <Button
+          
             variant="primary"
             href={pdf}
             target="_blank"
