@@ -57,9 +57,9 @@ function Home2() {
         <br />
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
+            <h1>CONNECT</h1>
+            <p style={{ fontSize: "1.2em" }}>
+              Let's build <span className="purple">brilliance </span>together
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
