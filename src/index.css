@@ -6,7 +6,7 @@ body {
   font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(10, 10, 10, 1));
+  background-image: radial-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.998) , rgba(10, 10, 10, 1));
 }
 
 h1 {
