@@ -8,12 +8,12 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
+      <Card.Body style={{display: 'flex', flexDirection: 'column', alignContent: 'center'}}>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "center", paddingBottom: "15px"}}>
+        <Card.Text style={{ textAlign: "center", paddingBottom: "10px"}}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        <Button variant="top"  className="mt-auto" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
@@ -27,7 +27,7 @@ function ProjectCards(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            // style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
             {"Demo"}

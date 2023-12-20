@@ -17,9 +17,9 @@ function Github() {
 <GitHubCalendar         
         className = "calendar"
         username="nessakodo"
-        blockSize={14}
+        blockSize={16}
         blockMargin={10}
-        color="fa61fd"
+        color="#e884e1"
         fontSize={16}
         colorScheme="dark"  
       />

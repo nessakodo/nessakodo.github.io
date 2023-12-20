@@ -98,15 +98,16 @@ button:focus {
 }
 
 .navbar-toggler span {
-  display: block !important;
+  /* display: block !important; */
   background-color: #ffffff !important;
   backdrop-filter: blur(10px) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
+  margin-right: 10px !important;
   transform: rotate(0deg) !important;
-  left: 0 !important;
+  /* left: 0 !important; */
   opacity: 1 !important;
 }
 
@@ -514,8 +515,11 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(0, 0, 0, 0.972) !important;
   border-radius: 50% !important;
+  border: 1.7px solid #e884e14f !important;
+  /* border-color: #e884e1 !important; */
+  /* box-shadow: 0px 0px 0px 1px #e884e1; */
   transition: 0.5s !important;
 }
 
@@ -527,7 +531,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #e884e1;
+  /* background: #e884e1; */
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -551,7 +555,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #e884e1 !important;
+  color: #ffffff !important;
 }
 
 /* --------- */
@@ -623,36 +627,38 @@ button:focus {
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 0px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .project-card {
-  border-radius: 15px !important;
+  border-radius: 20px !important;
   
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-top: 35px !important;
+  padding-bottom: 30px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
   height: auto !important;
 }
 
 .project-card-view {
-  box-shadow: 0 1px 8px 4px #e884e1 !important;
+  border: 1.7px solid #e884e14f !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
-  border-radius: 15px !important;
-
+  border-radius: 40px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 .project-card-view:hover {
-  transform: scale(1.07) !important;
+  transform: scale(1.1) !important;
   overflow: hidden !important;
   box-shadow: 0 1px 15px 7px  #e884e1 !important;
-  
-  border-radius: 15px !important;
+  border-radius: 40px !important;
 
 }
 
@@ -691,7 +697,7 @@ button:focus {
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 15px !important;
+  border-radius: 20px !important;
 }
 
 .blog-img {
@@ -703,19 +709,50 @@ button:focus {
 .btn-primary {
   color: #fff !important;
   background-color: #000000 !important;
-  border-color: #e884e1 !important;
+  border: 1.7px solid #e884e14f !important;
   border-radius: 15px !important;
+  max-width: 180px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
+
+
+.btn-top {
+  color: #fff !important;
+  background-color: #000000 !important;
+  border: 1.7px solid #e884e14f !important;
+  border-radius: 15px !important;
+  margin-left: 77px !important;
+  margin-right: 77px !important;  
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #e884e155 !important;
-  border-color: #e884e1 !important;
-  border-radius: 11px !important;
+  /* background-color: #e884e155 !important; */
+  border-radius: 15px !important;
+  transition: 0.5s;
+  transform: scale(1.07) !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 15px 1px  #e884e1 !important;
 }
+
+.btn-top:hover {
+  color: #fff !important;
+  /* background-color: #e884e155 !important; */
+  border-radius: 15px !important;
+  transition: 0.5s;
+  transform: scale(1.07) !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 15px 1px  #e884e1 !important;
+}
+
 .btn:focus {
-  outline: none !important;
-  box-shadow: none !important;
+  /* outline: none !important; */
+  box-shadow: 0 0 15px #e884e1;
+  border-radius: 20px !important;
 }
 .project-heading {
   color: white !important;
@@ -734,38 +771,45 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  width: 95% !important; 
 }
 
 .tech-icons {
   font-size: 4.5em !important;
   color: white;
-  margin: 15px !important;
-  padding: 10px !important;
+  margin: 20px !important;
+  padding-bottom: 15px !important;
   opacity: 0.93 !important;
   border: 1.7px solid #e884e14f !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 15px !important;
+  border-radius: 30px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  
 }
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+
+    
   }
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.1) !important;
   overflow: hidden !important;
+  /* border-color: #e884e1 !important; */
+  box-shadow: 0 1px 15px 7px  #e884e1 !important;
   border: 2.2px solid rgba(230, 115, 222, 0.883) !important;
 }
 .tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
+  padding: 30px !important;
+  line-height: 1.0 !important;
 }
 
 .quote-card-view {
@@ -802,7 +846,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .about-img {
-    padding-top: 0 !important;
+    padding-top: 0px !important;
   }
 
   .about-activity {
@@ -881,6 +925,11 @@ button:focus {
   }
 }
 
+.button-row {
+  padding-top: 75rem !important;
+  padding-bottom: 6rem !important;
+}
+
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
@@ -942,8 +991,8 @@ button:focus {
 .button-row {
   padding-top: 69rem;
   padding-bottom: 80px;
-
 }
+
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
