@@ -101,11 +101,6 @@ button:focus {
   /* display: block !important; */
   background-color: #ffffff !important;
   backdrop-filter: blur(10px) !important;
-  height: 4px !important;
-  width: 27px !important;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-  margin-right: 10px !important;
   transform: rotate(0deg) !important;
   /* left: 0 !important; */
   opacity: 1 !important;
@@ -156,6 +151,7 @@ button:focus {
     /* background-color: rgba(0, 0, 0, 0) !important; */
     font-size: 1.2rem !important;
     backdrop-filter: blur(5px) !important;
+    max-width: 100%;
 
   }
 
@@ -166,20 +162,20 @@ button:focus {
 
   .navbar-toggler {
     margin-top: 0.1rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     
   }
 
   .navbar-nav .nav-item a::after {
     /* display: none !important; */
-    backdrop-filter: blur(10px) !important;
+    /* backdrop-filter: blur(10px) !important; */
     /* margin-right: 1.2rem; */
   }
   .navbar-nav .nav-item {
     /* display: none !important; */
-    backdrop-filter: blur(10px) !important;
+    /* backdrop-filter: blur(10px) !important; */
     /* margin-right: 1rem; */
-    margin-bottom: 3.7rem;
+    margin-bottom: 4rem;
   }
 
     .navbar-toggler span {
@@ -190,7 +186,7 @@ button:focus {
     margin-top: 5px !important;
     margin-bottom: 5px !important;
     transform: rotate(0deg) !important;
-    left: 0 !important;
+    /* left: 0 !important; */
     opacity: 1 !important;
     }
   
@@ -203,9 +199,9 @@ button:focus {
 
 .d-flex {
   height: 5.0em !important;
-  margin-top: -0.7rem;
+  margin-top: -1rem !important;
   /* width: 5em !important; */
-  /* margin-bottom: 1em; */
+  margin-bottom: 0.3em;
   padding-left: 1.5rem;
 }
 
@@ -230,7 +226,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .nav-link {
-    padding: 0.9rem 1rem !important;
+    padding: 1rem 0rem !important;
   }
 }
 
@@ -726,6 +722,19 @@ button:focus {
   margin-right: 77px !important;  
   padding-top: 8px !important;
   padding-bottom: 8px !important;
+}
+
+@media screen {
+  .btn-top {
+    color: #fff !important;
+    background-color: #000000 !important;
+    border: 1.7px solid #e884e14f !important;
+    border-radius: 15px !important;
+    margin-left: 44px !important;
+    margin-right: 44px !important;  
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
 }
 
 
