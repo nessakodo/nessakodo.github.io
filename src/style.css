@@ -349,6 +349,7 @@ button:focus {
 .home-content {
   /* padding: 12rem 0 0rem !important; */
   color: rgb(255, 255, 255);
+  /* margin-top: -20rem; */
 }
 /* 
 .heading {
@@ -396,6 +397,8 @@ button:focus {
     /* padding-bottom: 10px !important; */
     /* padding-top: 10px !important; */
   }
+
+  
 } 
 
 .Typewriter__wrapper {
@@ -480,7 +483,6 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 0rem !important;
   margin-top: -100px;
 }
 
@@ -495,6 +497,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .home-about-body {
+    padding-top: -50px !important;
     margin-top: -30px !important;
     padding-bottom: 0px;
     margin-left: auto;
@@ -506,6 +509,23 @@ button:focus {
     text-align: center !important; 
 
   }
+
+  .home-about-description {
+    color: white !important;
+    padding-top: -80px !important;
+    padding-bottom: 20px !important;
+  
+    text-align: center;
+    
+  }
+
+
+.home-about-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  margin-top: -280px !important;
+
+}
 }
 .home-about-body {
   padding-top: 50px;
@@ -891,7 +911,7 @@ button:focus {
 
 } */
 
-/* .calendar {
+/* .git.calendar {
   width: 80%;
   margin: auto;
   background-color: aliceblue !important;

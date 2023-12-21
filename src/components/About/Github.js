@@ -14,6 +14,8 @@ function Github() {
       </h1>
   
 <div className={git.calandar}>
+
+  
 <GitHubCalendar         
         className = "calendar"
         username="nessakodo"
@@ -22,8 +24,12 @@ function Github() {
         color="#9ADDFF"
         fontSize={16}
         colorScheme="dark"  
+        // hideTotalCount={true}
+        hideMonthLabels={true}
+        hideColorLegend={true}
       />
 </div>
+
 </Row>
   );
 }
