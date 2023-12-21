@@ -26,7 +26,7 @@ function AboutCard() {
             I graduated from a full-stack software engineering BootCamp in 2022, diving into 
             computer science shortly afterward, currently pursuing it full-time. As I gaze into 
             the future, I aspire to achieve my CISSP and delve deeper into a career in cybersecurity, 
-            immersing myself in securing digital landscapes."
+            immersing myself in securing digital landscapes.
           </p>
           {/* <ul>
             <li className="about-activity">
@@ -39,10 +39,10 @@ function AboutCard() {
               <ImPointRight /> &nbsp; Adventuring Outside
             </li>
           </ul> */}
-          <br />
+          {/* <br />
           <p style={{ color: "rgb(155 126 172)" }}>
           Light the path to create masterpieces that captivate.{" "}
-          </p>
+          </p> */}
           {/* <footer className="blockquote-footer">Nessa Kodo</footer> */}
         </blockquote>
       </Card.Body>
