@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.207499c1.css",
-    "main.js": "/static/js/main.98e36a50.js",
+    "main.css": "/static/css/main.f73aa08b.css",
+    "main.js": "/static/js/main.a04f5808.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/home-bg.jpg": "/static/media/home-bg.cec1aa5ec50d72de5bb0.jpg",
     "static/media/about.png": "/static/media/about.1c885e18add0eb93642c.png",
     "static/media/logo.png": "/static/media/logo.5cff65baf5ef57fcb8e8.png",
+    "static/media/NessaKodoResume.pdf": "/static/media/NessaKodoResume.ceba6a4c5645d0a0be21.pdf",
     "static/media/avatar.jpg": "/static/media/avatar.ee8ba11912cd249c7b44.jpg",
-    "static/media/NessaKodoResume.pdf": "/static/media/NessaKodoResume.79bc989984bee4461d70.pdf",
     "static/media/groovy.png": "/static/media/groovy.830fcafd17cccea0aaf6.png",
     "static/media/interproz.png": "/static/media/interproz.a64814f4c5708efb469e.png",
     "static/media/smarthealth.png": "/static/media/smarthealth.da35c1f7193943a7ac3d.png",
     "static/media/cryptoad.png": "/static/media/cryptoad.064612be4a3155160573.png",
     "static/media/sonic.png": "/static/media/sonic.8f34802ce19f2dec265b.png",
     "static/media/butterfleye.png": "/static/media/butterfleye.eec9207daed7600117ab.png",
-    "static/media/pre.svg": "/static/media/pre.b6133869e843ab39581e.svg",
+    "static/media/pre.svg": "/static/media/pre.6bb9e8fa7235d6a399aa.svg",
     "index.html": "/index.html",
-    "main.207499c1.css.map": "/static/css/main.207499c1.css.map",
-    "main.98e36a50.js.map": "/static/js/main.98e36a50.js.map",
+    "main.f73aa08b.css.map": "/static/css/main.f73aa08b.css.map",
+    "main.a04f5808.js.map": "/static/js/main.a04f5808.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.207499c1.css",
-    "static/js/main.98e36a50.js"
+    "static/css/main.f73aa08b.css",
+    "static/js/main.a04f5808.js"
   ]
 }
