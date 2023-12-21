@@ -72,7 +72,7 @@ function Projects() {
               title="Groovy Galactic"
               description="Custom portfolio website for a local artist showcasing their use of different mediums, offering visitors the opportunity to purchase digital and physical items through WooCommerce."
               ghLink="https://github.com/nessakodo/groovygalactic"
-              demoLink="https://github.com/nessakodo/groovygalactic" 
+              demoLink="" 
             />
           </Col>
 

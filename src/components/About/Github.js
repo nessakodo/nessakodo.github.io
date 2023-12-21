@@ -19,7 +19,7 @@ function Github() {
         username="nessakodo"
         blockSize={16}
         blockMargin={10}
-        color="#94dafb"
+        color="#9ADDFF"
         fontSize={16}
         colorScheme="dark"  
       />
