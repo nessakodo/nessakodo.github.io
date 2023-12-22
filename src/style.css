@@ -438,7 +438,7 @@ button:focus {
   .Typewriter__cursor {
     font-weight: 400 !important;
     font-size: 1.05em !important;
-    color: #ffffff !important;
+    color: #000000 !important;
     /* position: absolute !important; */
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -507,6 +507,7 @@ button:focus {
     /* padding-right: 2.5rem; */
     /* padding-left: 1.1rem; */
     text-align: center !important; 
+    justify-content: center !important;
 
   }
 
@@ -544,7 +545,7 @@ button:focus {
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
+  padding-top: 0px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -553,11 +554,11 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 45px !important;
+  height: 45px !important;
   text-align: center !important;
   font-size: 1.2em !important;
-  line-height: 2em !important;
+  line-height: 200% !important;
   background: rgba(0, 0, 0, 0.972) !important;
   border-radius: 50% !important;
   border: 1.7px solid #9ADDFF88 !important;
@@ -608,8 +609,8 @@ button:focus {
   /* background-color: rgba(0, 0, 0, 0); */
   bottom: 0 !important;
 
-  padding-top: 10px !important;
-  padding-bottom: 25px !important ;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important ;
 }
 .footer-copywright {
   text-align: center !important;
