@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://nessakdo.github.io.git",
+  "homepage": "https://nessakdo.github.io/nessakodo",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --open-page nessakodo",
     "build": "react-scripts build && shx cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

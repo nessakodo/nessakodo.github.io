@@ -5,7 +5,7 @@
 
 ## 𝘼𝙪𝙩𝙝𝙤𝙧: 𝙉𝙚𝙨𝙨𝙖 𝙆𝙤𝙙𝙤 - 𝙁𝙪𝙡𝙡 𝙎𝙩𝙖𝙘𝙠 𝙎𝙤𝙛𝙩𝙬𝙖𝙧𝙚 𝙀𝙣𝙜𝙞𝙣𝙚𝙚𝙧
 
-This website serves as a homepage for my projects, resume, and general information about me as a developer. This is a react app utilizing particle.js, so try clicking around the black space on the background for some fun!
+This website serves as a homepage for my projects, resume, and general information about me as a developer. This is a react app utilizing particle.js, so try clicking around the black space in the background for some fun!
 #### This is live and viewable at [nessakodo.com](https://www.nessakodo.com)
 
 ## 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦𝘴 + 𝘍𝘳𝘢𝘮𝘦𝘸𝘰𝘳𝘬𝘴 𝘜𝘴𝘦𝘥
