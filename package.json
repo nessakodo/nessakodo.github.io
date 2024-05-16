@@ -4,6 +4,8 @@
   "homepage": "https://nessakdo.github.io/nessakodo",
   "private": true,
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/zoom": "^3.12.0",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -16,7 +18,6 @@
     "react-github-calendar": "^3.2.2",
     "react-icons": "^4.3.1",
     "react-parallax-tilt": "^1.7.42",
-    "react-pdf": "^0.0.10",
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^1.42.2",
