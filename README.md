@@ -1,4 +1,4 @@
-# Developer Portfolio
+# Nessa Kodo Developer Portfolio
 
 ### Home Page 
 ![preview](/src/Images/read-me.png)
